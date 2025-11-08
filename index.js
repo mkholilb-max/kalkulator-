@@ -32,9 +32,6 @@ function calculate() {
         if(cal.includes ('/')) {
             let parts = cal.split('/')
             result = parseFloat(parts[0]) / parseFloat(parts[1]);
-        if (result = parts / ('0')) {
-            return "Tak Terbatas"
-        }
         }
     display.value = result;
  }
